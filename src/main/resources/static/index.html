@@ -125,8 +125,9 @@
         graficaPie = new Chart(ctx, {
             type: 'doughnut',
             data: {
-                labels: ['Minería de Datos', 'Spring Boot', 'OpenCV', 'Física', 'Robótica', 'Inglés', 'Carpintería', 'Progreso Personal'],
-                datasets: [{
+                            // Cámbialo a esto:
+labels: ['Cómputo en la Nube', 'Reconocimiento de Patrones', 'Microcontroladores', 'Árboles de Decisión', 'Compiladores', 'Ingeniería de Software', 'Minería de Datos', 'Progreso Personal'],
+                            datasets: [{
                     data: [c.p1 || 0, c.p2 || 0, c.p3 || 0, c.p4 || 0, c.p5 || 0, c.p6 || 0, c.p7 || 0, c.p8 || 0],
                     backgroundColor: ['#ef4444', '#3b82f6', '#f59e0b', '#10b981', '#8b5cf6', '#f97316', '#64748b', '#ec4899'],
                     borderColor: '#111827',
