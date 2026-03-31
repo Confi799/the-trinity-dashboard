@@ -20,9 +20,10 @@ public class Competidor {
     private Integer p5 = 0;
     private Integer p6 = 0;
     private Integer p7 = 0;
+    private Integer p8 = 0;
 
     // Cálculo automático del promedio para el Ranking
     public Double getPromedio() {
-        return (p1 + p2 + p3 + p4 + p5 + p6 + p7) / 7.0;
+        return (p1 + p2 + p3 + p4 + p5 + p6 + p7 + p8) / 7.0;
     }
 }

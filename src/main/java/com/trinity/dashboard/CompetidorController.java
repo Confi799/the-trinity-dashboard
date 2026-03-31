@@ -34,6 +34,7 @@ public class CompetidorController {
         c.setP5(datos.getP5());
         c.setP6(datos.getP6());
         c.setP7(datos.getP7());
+        c.setP8(datos.getP8());
         return repo.save(c);
     }
 }
